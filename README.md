@@ -77,7 +77,7 @@ Exemplo:
     public void adicionarAcucar() {
         System.out.println("Adicionando açúcar...");
     }
-}
+    }
 
 Nesse exemplo, a classe CafeEspecial possui características de mais de uma estrutura por meio das interfaces, demonstrando uma aplicação prática do polimorfismo e da reutilização de código.
 
