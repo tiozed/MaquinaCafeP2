@@ -2,7 +2,7 @@
 # Avaliação P2 - Linguagem de Programação - Prof. Bruno Zolotareff
 
 ## Nomes
-Davi Sanchez Nogueira
+Davi Sanchez Nogueira /
 Kaua dos Santos Silva
 
 # Máquina de Café com POO
@@ -54,15 +54,15 @@ Em Java não existe herança múltipla entre classes. Para obter característica
 
 Exemplo:
 
-public interface Quente {
+    public interface Quente {
     void aquecer();
-}
+    }
 
-public interface Doce {
+    public interface Doce {
     void adicionarAcucar();
-}
+    }
 
-public class CafeEspecial extends Drink implements Quente, Doce {
+    public class CafeEspecial extends Drink implements Quente, Doce {
     
     public CafeEspecial(String sabor, double valor) {
         super(sabor, valor);
